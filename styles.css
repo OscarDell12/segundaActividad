@@ -1,0 +1,71 @@
+/* Estilos para el header */
+header {
+    background-color: #f1f1f1;
+    padding: 15px;
+    text-align: center;
+    }
+    /* Estilos para las subsecciones */
+    #info-personal, #habilidades {
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid #2842c8;
+    }
+    /* Estilos para los títulos de subsecciones */
+    #info-personal h2, #habilidades h2 {
+    font-size: 20px;
+    }
+    /* Estilos para la lista de habilidades */
+    #habilidades ul {
+    list-style-type: square;
+    }
+    /* Estilos para el footer */
+    footer {
+    background-color: #f1f1f1;
+    color: #000000;
+    text-align:start;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    }
+    
+    body{
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    header, #info-personal, #habilidades {
+    padding: 10px;
+    }
+    
+    h1, h2 {
+    font-size: 18px;
+    }
+    }
+    /* Estilos para pantallas medianas (tabletas) */
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    
+    header, #info-personal, #habilidades {
+    padding: 20px;
+    }
+   
+    h1, h2 {
+    font-size: 22px;
+    }
+    }
+    /* Estilos para pantallas grandes (desktops) */
+    @media only screen and (min-width: 1025px) {
+    
+    header, #info-personal, #habilidades {
+    padding: 30px;
+    }
+    
+    h1, h2 {
+    font-size: 28px;
+    }
+    }
+    
